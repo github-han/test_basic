@@ -1,0 +1,36 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1517542712476" stop="1517542712679">
+  <name>test</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1517542712476" status="failed" stop="1517542712679">
+      <name>Test_allure.test_001</name>
+      <failure>
+        <message>TypeError: attach() missing 1 required positional argument: 'contents'</message>
+        <stack-trace>self = &lt;test.Test_allure object at 0x0000000003755080&gt;
+
+    @allure.step(title='第一个测试')
+    def test_001(self):
+&gt;       allure.attach("这是一个描述")
+E       TypeError: attach() missing 1 required positional argument: 'contents'
+
+allure\test.py:5: TypeError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4032-MainThread"/>
+        <label name="host" value="Hanxiaojie-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1517542712522" status="failed" stop="1517542712522">
+          <name>第一个测试</name>
+          <title>第一个测试</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
